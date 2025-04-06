@@ -7,8 +7,9 @@ A simple command-line tool built with Node.js to count the number of words in a 
 - Node.js installed on your system
 
 ## How to Use
-- npm start <filename>
-- npm index.js <filename>
+- node index.js -h
+- node index.js a.txt
+- npm start a.txt
 
 1. Clone the repository:
    ```bash
