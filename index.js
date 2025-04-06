@@ -22,8 +22,7 @@ program
   const completePath = path.join(userInput);
 
   fs.readFile(completePath, "utf-8", (err, data) => {
-    const dataArray = data.split(" ");
-    const numberOfWords = chalk.hex("#d1949e")(dataArray.length);
+    const numberOfWords = chalk.hex("#d1949e")(data.split(" ").length);
     const finalString = "You have " + chalk.bgGreen(numberOfWords) + " words " + chalk.blue("in this") + " file";
     console.log(finalString);
   })
