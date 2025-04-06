@@ -1,0 +1,17 @@
+{
+  "name": "word-counter-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
